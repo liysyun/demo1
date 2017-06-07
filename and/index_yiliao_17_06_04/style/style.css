@@ -1,0 +1,84 @@
+*{margin:0; padding:0; list-style:none;}
+a{text-decoration:none;}
+
+body {font-size:62.5%;}
+header{margin:0 10%;}
+header li{float:left;list-style:none;margin:0 1rem 0 0;}
+.header li:first-child {margin:0 8rem 0 0;color:red;}
+header:after{display:block; content:""; clear:both; }
+
+nav {padding:0 10%;height:3rem; background:#0068bf; }
+nav li{float:left;}
+nav a{font-size:1.5rem; line-height:3rem; display:inline-block; color:#fff; height:3rem; padding:0 2rem; text-align: center;  }
+nav a:hover{background:#06297b;}
+
+.banner img {width:100%; display:block;}
+
+.main-one,.main-two, .main-three, .main-four{width:100%; height:20rem;background:#64a7df;}
+.main-one:after{display:inlin-block; position:absolute;content:"";  font-size:0;  border:2rem solid #fff; border-color:#fff transparent 
+transparent transparent; }
+.main-one{text-align:center; color:#fff; overflow:hidden;}
+.main-one-left{width:22rem; height:10rem; line-height:2;float:left;position:absolute; text-align: left; margin:5rem 0 0 25%;float:left; }
+.main-one-button a{float:right; display:block;  height:2rem; padding:0.2rem 1rem;line-height:2.5; background:#ec8e0c;color:#fff; 
+border-radius:1rem;}
+.main-one-right{width:13rem; height:13rem; line-height:2;text-align:left; position:absolute; float:right; margin:5rem 0 0 60% ;
+border-radius:13rem 13rem; background:#fff; color:#000;  }
+.main-one-right p{margin:1.5rem 3rem;}
+.main-one-bg{background-image:url(../image/main-one-bg.gif); display: inline-block; width:20rem;height:15rem;  
+margin:-120% 0 0 80%;}
+.main-two{background:url(../image/main-two-bg.jpg); text-align:center;padding-top:3rem; height:30rem;}
+.main-two-radius{ width:4rem; height:2rem; border-radius:2rem 2rem  0 0; background:#fff;margin:-5rem 0 0 50%; position:absolute;
+z-index:999;}
+.main-two-radius:before{display:inline-block; border:1.3rem solid #ec8e0c;content:""; 
+ border-color:#ec8e0c transparent transparent transparent; border-left-width:0.8rem; border-right-width:0.8rem;position:absolute; 
+ margin:1rem 0 0 -0.8rem;}
+.main-two-tile :last-child{font-size:32px; font-weight:bold;}
+.main-two-tile :first-child{padding: 1rem 0 0 -2rem;}
+.main-two-pro{margin:1rem 0  0 10%;}
+.main-two-pro li{width:20rem; float:left; margin:0 3rem 1rem 0; line-height: 2; text-align: left;}
+.main-two-pro li img{width:20rem; height:11rem;}
+.main-two-pro li dt:first-child{padding:0 2rem 0 5rem;}
+.main-two-proclear{content:"0"; postion:absolute; clear:both;}
+
+.main-three{color:#fff;}
+.main-three-font{text-align: center; line-height: 2;}
+.main-three  ul { margin:0 0  0 18%;}
+.main-three-good li{float:left; width:20em; border:1px solid #Fff; display:table-row; height:8rem; line-height: 2; margin:0 2rem 0 0; 
+padding:1rem 1rem;}
+.main-three .main-three-font2{ font-size:1.2rem;font-weight:bold;}
+
+.main-four{background:#fff; background-image:url(../image/main-four-bg.jpg);background-size: cover; line-height: 2;}
+.main-videoz{width:100%; background:#64a7df; height:30em; margin:0 0 1rem 0;}
+.main-four span{color:#438bd6; font-size:1.3rem; font-weight:bold;}
+.main-four-one{margin-left:20%;}
+.main-four .main-four-one:before{font-size:1.3rem; content:"4"; position:relative; display:inline-block; left:-0.1rem; color:#438bd6; 
+font-weight:bold;}
+.main-four p{width:20rem; color:#aeaeae; letter-spacing:0.1rem; }
+
+.main-four-two{margin:5.5rem 0 0 14%; }
+
+.audio{width:20rem; height:2rem;  display: none;}
+.audio audio{width: 0.1em; }
+.video{float:left; margin:6rem 6rem 0 25%;}
+.iframe iframe{ width:20rem; height:10.5rem;margin:6rem 0 0 0; }
+
+.footer{width:100%; height:20rem; background:#2d7fd5; color:#fff;}
+.aside-left{float:left;}
+.aside-left h2{font-size:22px; }
+
+.aside-left ul li{float:left; }
+.aside-left a{color:#Fff;  text-align: center;padding:0.8rem 0.5rem; display: inline-block; font-size:1rem; font-weight:bold;}
+.aside-left a:hover{background:#64a7df;}
+
+
+ .footer{padding:3rem 0 0 0; height:10rem; margin-top:-3rem;}
+ .aside-left {margin-left:10%;}
+.aside-left a{font-size:0.8rem; font-weight:400; }
+.aside-left a:hover{background:none; font-size:0.8rem;}
+.QRcode{float:left; text-align: center; margin:0 5rem  0 2rem;}
+.QRcode p{margin:0.5rem 0  0 0;}
+.aside-right{word-spacing:0.2rem; letter-spacing:0.1rem; margin-top:2rem;}
+.aside-right li{float:left; margin:1rem 0 0 0.5rem;}
+.aside-right ul{width:100rem;}
+.aside-right li a{color:#fff;}
+.footer-tel a{float:left;}
