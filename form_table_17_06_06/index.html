@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="style/style.css" rel="stylesheet" type="text/css">
+    <title>六月六日作业_张小墨</title>
+</head>
+<body>
+    <header class="header" >
+        <div>
+            <h1>六月六日作业</h1>
+        </div>
+    </header>
+    <main>
+        <div class="table">
+            <table>
+                <caption>以下是狗狗基本信息</caption>
+                <thead>
+                    <tr>
+                        <th>狗狗的名字</th>
+                        <th>狗狗的种类</th>
+                        <th>狗狗的性别</th>
+                        <th>狗狗的年龄</th>
+                        <th>狗狗的爱好</th>
+                        <th>狗狗的个人宣言</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>肉肉</td>
+                        <td>中华田园犬</td>
+                        <td>女</td>
+                        <td>8个月</td>
+                        <td>喜欢吃肉肉</td>
+                        <td>爱是什么？有吃肉肉重要吗？</td>
+                    </tr>
+                    <tr>
+                        <td>团团</td>
+                        <td>金毛犬</td>
+                        <td>男</td>
+                        <td>12个月</td>
+                        <td>喜欢和麻麻在一起</td>
+                        <td>有你的地方，黑白不再是黑白。</td>
+                    </tr>
+                    <tr>
+                        <td>吉吉</td>
+                        <td>泰迪</td>
+                        <td>男</td>
+                        <td>9个月</td>
+                        <td>喜欢做不可描述的事情</td>
+                        <td>你不能离开我太久哦~我会寂寞的</td>
+                    </tr>
+                    <tr>
+                        <td>粉粉</td>
+                        <td>藏獒</td>
+                        <td>女</td>
+                        <td>24个月</td>
+                        <td>喜欢穿新衣服</td>
+                        <td>别盯人家看嘛，人家好羞涩的~</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="6">介绍完毕 不懂就<a href="http://www.baidu.com">百度一下</a></td>
+                    </tr>
+                </tfoot>
+            </table>
+
+        </div>
+        <div class="form">
+            <p>领养狗狗需填以下信息</p>
+            <hr />
+            <form action="">
+                <input type="text" maxlength="3" min="2" placeholder="请输入用户名">
+                <input type="password" placeholder="请输入密码">
+                <label for="woman">
+                   <input  id="woman" for="woman"  type="radio" name="sex"value="woman">女
+                </label>
+                <label for="man">
+                    <input type="radio"  id="man" name="sex" value="man">男
+                </label>
+                <select name="" id="">
+                    <option>江苏省</option>
+                    <option>福建省</option>
+                    <option>广东省</option>
+                    <option>山东省</option>
+                </select>
+                <label>
+                    上传您的俊照：<input name="picture" type="file"/>
+                </label>
+                <br />
+                <lable>
+                    您喜欢的颜色：<input name="color" type="color" />
+                </lable>
+                <label>
+                    联系邮箱：<input name="email" type="email">
+                </label>
+                <labler class="right">
+                    如果你决定做我老婆的话，就勾上吧~come on baby：<input name="haoma" type="checkbox"/>
+                </labler>
+                <br />
+                <labler>
+                    如果您决定送我回厂重置<button type="submit">那就点我一下吧</button>
+                <laber>               
+            </form>
+             <p>求次方</p>  
+            <form oninput="and.value = Math.pow(parseInt(value1.value),+ parseInt(value2.value))"> 
+                       
+                <input type="text" name="value1" value="2"> +
+                <input type="text" name="value2" value="3">=
+               <output name="and">8</output>
+            </form>
+  <p>求和</p> 
+            <form oninput="and.value = parseInt(value1.value) + parseInt(value2.value)"> 
+                          
+                <input type="text" name="value1" value="2"> +
+                <input type="text" name="value2" value="3">=
+               <output name="and">9</output>
+            </form>
+        </div>
+    </main>
+    <footer>
+        <audio src="file/two.mp3" controls autoplay  loop ></audio>
+    </footer>
+</body>
+</html>
