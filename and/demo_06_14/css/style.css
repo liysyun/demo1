@@ -1,0 +1,23 @@
+*{margin:0;padding:0;text-decoration:none; list-style:none;}
+
+#head{height:50px; width:100%;background:#9bc5a2; font-size:20px; line-height:50px; text-align: center; position:fixed; z-index:2;
+bottom:10px;} 
+.background{margin-left:40%;}
+.background li{float:left;}
+.background li a{display: inline-block; padding:0 30px;color:#f6f6f6; line-height: 50px; background-image:url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABHklEQVQ4T42TwQ2CQBBFXQ5wtQSpQO1AK1AqUI/AQalArYB4AI7agVqBWIF0oCVwhQP4x2iC684KyYZkZ/fNn5m/oqP4kiQZ1XW9xBpRWAiRYu1c103l40LeiKJojsN7FRjAhe/7h2bsC4DMvaqqbgB0GUBuGMYQSh6f+BcgjuMpAkfV5cae43neSQmA/A2yr3UAlLFFGRsOwNbfSgH1ABnuOgVQaLM9oIvoQ4Zfn4FcUf9rtMoSaPPtgYsKgOxj2Qs/PniroFnPmhCUtkPzVjJYCVBNQ+7+TwlhGHYty5qQfSF1zhjpQLYuiuIcBEFOZ14KkHGAABmop5tAI/ZAIgclZYIym6Z55+zLAQHIy7K0he7x/FNDj0u09D/Hcp7weoL/7wtthwAAAABJRU5ErkJggg==');
+background-position: 10px 15px;  background-repeat: no-repeat;}
+.background li a:hover{background:#42653c;background-image:url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABHklEQVQ4T42TwQ2CQBBFXQ5wtQSpQO1AK1AqUI/AQalArYB4AI7agVqBWIF0oCVwhQP4x2iC684KyYZkZ/fNn5m/oqP4kiQZ1XW9xBpRWAiRYu1c103l40LeiKJojsN7FRjAhe/7h2bsC4DMvaqqbgB0GUBuGMYQSh6f+BcgjuMpAkfV5cae43neSQmA/A2yr3UAlLFFGRsOwNbfSgH1ABnuOgVQaLM9oIvoQ4Zfn4FcUf9rtMoSaPPtgYsKgOxj2Qs/PniroFnPmhCUtkPzVjJYCVBNQ+7+TwlhGHYty5qQfSF1zhjpQLYuiuIcBEFOZ14KkHGAABmop5tAI/ZAIgclZYIym6Z55+zLAQHIy7K0he7x/FNDj0u09D/Hcp7weoL/7wtthwAAAABJRU5ErkJggg==');
+background-position: 10px 15px; background-repeat: no-repeat; }
+#nav{width:80%; height:1500px; background:#ece9e9; box-shadow:2px 1px 4px #666666;margin:70px auto; padding:20px; 
+position:relative;  border-radius: 50%;}
+.hover{color:#a2c4c9;font-weight:bold; font-size:24px;top:45%; position: absolute; left:50%; letter-spacing: 10px; display: block;}
+.ul{position:absolute;  left:50%; top:50%; line-height:2;font-size:18px;letter-spacing: 10px;display:none;}
+#nav ul li a{color:#7f8181; background-position: center; background-size:cover;}
+#nav ul li{ }
+.ul li a::before{content:""; font-size:0; border:5px #7f8181 solid; border-color: transparent transparent transparent #7f8181;
+vertical-align: middle; }
+.hover:hover + .ul{display:block;}
+
+
+
+
