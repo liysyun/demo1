@@ -1,0 +1,55 @@
+*{margin:0px; padding:0px; text-decoration:none;list-style:none}
+body{background:url(./image/background.jpg);font-size:12px;}
+.header{display: flex; width:100%; justify-content:space-around;}
+.left img{height:4rem; width:4rem;justify-content:center;}
+.main{width:60%; }
+.main ul{display:flex;width:100%;justify-content:space-around;align-items:center;height: 4rem;}
+.main ul a{color:#000; font-size:1.2rem; padding:1rem 1rem; } 
+.list_image{float:right;display:flex;justify-content:center;align-items:center;height: 4rem;}
+.list_image .fa {font-size:2rem; width:3rem;color:#000;}
+
+.main ul a:hover{
+   transition:background-color  1s linear;background:#786f6f;
+    border-bottom:0.5rem solid rgba(0,0,0,0.4);transition:border-bottom  0.5s linear 0.2s;
+    }
+
+@media only screen and (max-width: 768px) {
+    body{background-size:cover; background-repeat:no-repeat;height:100vh;;
+    }
+    .left img{height:3rem; width:3rem;position:absolute;left:2rem; }
+    .header .main, .right, .list_image{display:none;; }
+    
+    .main_wap{position:absolute;top:3rem;left:0; width:100%; margin-top:0.8rem;border-top:#c9c1c1 solid 1px; }
+    .main_wap ul{ display: flex; flex-direction: column; line-height: 1.5rem; position:absolute;top:3.8rem;}
+    .main_wap ul li { width:100%; text-align: center; line-height: 2.5rem; }
+    .main_wap ul li a{
+       display:block; padding:0; border-bottom: 0.15rem solid transparent;    
+     }
+    .main_wap ul li a:hover {
+        background:none;
+        border-bottom: 0.15rem solid #000;
+        transition:border-bottom  0.5s linear ;     
+       }  
+    .right_wap .list_image{display:flex;justify-content:space-around;height: 4rem; position:absolute;
+    top:14rem; width:100%;left:0;} 
+    
+    .right_wap .list_image .fa {font-size:2rem; width:3rem;color:#000;}
+
+    .header {display: flex; width:100%; height: 4rem; }
+    .header input{width:2rem; height:2rem; font-size:1.5rem; opacity:0;  position: absolute; z-index: 9; right:2rem;
+    }
+    .header .fa-bars{width:2rem; height:2rem;background:transparent;font-size:1.5rem; position:absolute; text-align: center; 
+         color:#786f6f;cursor:pointer;line-height: 2rem;right:2rem;top:1rem;}
+
+
+    .nav_toggle_check:checked ~ .show {
+        display: flex;;
+    }
+}
+
+@media only screen and (min-width: 768px){
+     .header .nav_toggle_check, .header .fa-bars{display: none;}
+
+}
+
+
