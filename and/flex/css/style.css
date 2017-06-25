@@ -1,6 +1,6 @@
 body{margin:0px; padding:0px; font-size:12px;}
 *{margin:0; padding:0;}
-.header{display:flex; align-items: center;justify-content:space-between;align-self: center;background:rgba(0,0,0,0.2);}
+.header{display:flex; align-items: center;justify-content:space-between;align-self: center;background:rgba(0,0,0,0.2); text-align: center;}
 .header_left{float:left;line-height:3rem;}
 .main a{color:dodgerblue; text-decoration: none;}
 .profile-solid.icon {
